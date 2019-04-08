@@ -1,0 +1,1 @@
+start "phonegap" phonegap serve
