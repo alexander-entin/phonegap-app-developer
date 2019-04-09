@@ -3,6 +3,6 @@ function go() {
     if (url.toLowerCase().indexOf('http') !== 0) {
         url = 'http://' + url
     }
-    // location.href = url
-    document.getElementById('app').src = url
+    location.href = url
+    // document.getElementById('app').src = url
 }
